@@ -6,10 +6,14 @@ import numpy as np
 # Use -s to skip to the end and just save the final frame
 # Use -w to write the animation to a file
 # Use -o to write it to a file and open it once done
+
+
+
 # Use -n <number> to skip ahead to the n'th animation of a scene.
 
 
 class OpeningManimExample(Scene):
+    
     def construct(self):
         intro_words = Text("""
             The original motivation for manim was to
